@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>软件体系结构教学软件</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<div class="container1">
+    <h1>欢迎来到软件体系结构教学软件</h1>
+    <p>这是一个用于展示不同软件体系结构的教学软件。</p>
+
+    <form id="fileForm">
+        <input type="file" name="file" id="fileInput" required>
+        <select name="method" id="methodSelect">
+            <option value="mainSubroutine">主程序-子程序</option>
+            <option value="objectOriented">面向对象</option>
+            <option value="eventSystem">事件系统</option>
+            <option value="pipelineFilter">管道-过滤器</option>
+        </select>
+        <button type="submit">处理文件</button>
+    </form>
+    <div id="result"></div>
+
+    <h2>体系结构风格介绍</h2>
+    <ul>
+        <li><a href="/architecture/mainSubroutine">主程序-子程序</a></li>
+        <li><a href="/architecture/objectOriented">面向对象</a></li>
+        <li><a href="/architecture/eventSystem">事件系统</a></li>
+        <li><a href="/architecture/pipelineFilter">管道-过滤器</a></li>
+    </ul>
+</div>
+
+<script th:src="@{/js/app.js}"></script>
+</body>
+</html>

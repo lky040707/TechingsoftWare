@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1200px;
+    height: 800px;
+}
+.container1{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1200px;
+    height: 400px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+/* 确保代码块有足够的空间 */
+/* 确保代码块有足够的空间 */
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow-x: auto;
+    overflow-y: auto;
+    max-height: 300px;
+    line-height: 1.6;
+}
+
+/* 代码块内的代码样式 */
+pre code {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: monospace;
+    white-space: pre-wrap;
+    letter-spacing: 0.05em;
+}
+
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    color: #0056b3;
+}

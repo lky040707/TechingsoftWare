@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>错误页面</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<div class="container">
+    <h1>发生错误</h1>
+    <p th:text="${description}"></p>
+    <pre><code th:text="${code}"></code></pre>
+    <a href="/">返回主页</a>
+</div>
+</body>
+</html>
