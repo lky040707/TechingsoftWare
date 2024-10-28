@@ -4,6 +4,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+
+
+
 public class Alphabetizer4 extends Filter {
     private ArrayList<String> kwicList = new ArrayList<>();
     public Alphabetizer4(Pipe input, Pipe output) {
